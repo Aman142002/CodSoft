@@ -1,0 +1,304 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/solid-background-4g6g57jjoqcmwr6u.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    color: #fbf8f8; /* Text color */
+    font-size:larger;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+
+header {
+    text-align: left;
+    padding: 20px 0;
+}
+
+header a{
+    color: #ccc;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #090909;
+    cursor: pointer;
+}
+
+.header-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+
+nav ul li{
+    list-style : none;
+    text-align: right;
+    display: inline-block;
+    margin-right: 40px; 
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+        background-color: #f0f0f0; /* Background color */
+        background-image: url('https://cdn.dribbble.com/userupload/12532523/file/original-2f815ab4ebbb07e1faa093bd61dec4a0.jpg?resize=1504x1128');
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+        padding: 50px; /* Add padding for content */
+        text-align: center; /* Center-align text */
+        color: #fbf8f8; /* Text color */
+        font-size:larger;
+}
+
+button {
+    margin: 0 auto; /* Center align the button horizontally */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border-radius: 10px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+#Services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#Services h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.Services-list li {
+    margin: 0 20px; /* Add spacing between list items */
+    padding: 10px 20px; /* Add padding to list items */
+    border: 1px solid #ccc; /* Add border to list items */
+    border-radius: 5px; /* Add border radius to list items */
+    background-color: #fffefe; /* Add background color to list items */
+    color: #0b0a0a; /* Set text color */
+    font-size: 16px; /* Set text size */
+    transition: all 0.3s ease; /* Add transition effect */
+    cursor: pointer;
+}
+
+.Services-list li:hover {
+    background-color: #080808; /* Change background color on hover */
+    color: #ccc;
+}
+
+#contact-us {
+    padding: 20px;
+}
+
+#contact-us h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-image: url("https://img.freepik.com/premium-photo/old-green-telephone-receiver-green-background_319172-1572.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    padding: 50px; /* Add padding for content */
+    text-align: center; /* Center-align text */
+    color: #fbf8f8; /* Text color */
+    font-size:larger;
+    color:#080808;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"]{
+    margin-right: 5px;
+    vertical-align: end;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form{
+    display: flex;
+
+}
+
+#About-us {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+/* Style for the heading */
+#About-us h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Style for the paragraph */
+#About-us p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: #5d5a5a;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+}
+
+.useful-links,
+.legal-links,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #f8f8f9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #080808;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media h4 {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media ul li:last-child {
+    margin-right: 0;
+}
+
+.social-media ul li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #060606;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-media ul li a:hover {
+    background-color: #f4f6f8;
+}
+
+.social-media ul li a img {
+    width: 100%;
+    height: auto;
+}
+
+
+
