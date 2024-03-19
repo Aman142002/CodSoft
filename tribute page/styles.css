@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #333;
+}
+
+main {
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    flex: 1;
+    margin-right: 40px;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p {
+    line-height: 1.6;
+    color: #666;
+}
+
+#honors, #quotes {
+    margin-top: 30px;
+}
+
+#honors h3, #quotes h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#honors ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#honors li {
+    margin-bottom: 8px;
+}
+
+#quotes blockquote {
+    margin-bottom: 20px;
+}
+
+#quotes blockquote p {
+    font-style: italic;
+    color: #444;
+}
+
+#quotes blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#tribute-image {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+
+#tribute-image img {
+    width: 150%;
+    height: auto;
+    border-radius: 50%; 
+    border: 8px solid #fff; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+#tribute-image img:hover {
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: x-large ;
+    font-weight: 300;
+
+}
